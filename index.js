@@ -27,9 +27,9 @@ cls.addEventListener("click", () => {
 
 // Deleting cards and adding "No Items in the todo list" text 
 var headernewx = document.getElementById("header");
+var card = document.getElementById("todo1");
 
 function mF() {
-    var card = document.getElementById("todo1");
     card.remove();
     document.getElementById("p").style.display = "block";
     headernewx.classList.remove("active");
